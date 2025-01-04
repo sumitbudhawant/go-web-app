@@ -1,10 +1,7 @@
 name: CI/CD
-
-# Code Push
-
-    on:
+on:
     push:
-        branches:
+      branches:
             - main
         paths-ignore:
             - "README.md"
@@ -12,7 +9,6 @@ name: CI/CD
             - "Kubernetes/**"
 
     jobs:
-      
         build:
             runs-on: ubuntu-latest
 
