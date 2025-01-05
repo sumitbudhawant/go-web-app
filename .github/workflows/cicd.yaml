@@ -7,7 +7,6 @@ on:
       - "README.md"
       - "helm/**"
       - "Kubernetes/**"
-      - "main"
 
 jobs:
   build:
