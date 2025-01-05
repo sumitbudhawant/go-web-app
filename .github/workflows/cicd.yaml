@@ -63,7 +63,7 @@ jobs:
 
   update-newtag-in-helm-chart:
     runs-on: ubuntu-latest
-    needs: code-quality
+    needs: Push
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
